@@ -21,16 +21,16 @@ loaded.
 Zepto is powered by a small assembly language. All available opcodes are listed
 in the table below with the respective opcodes encoded in hexadecimal.
 
-| opcode | Description                  | Opcode |
-| ------ | ---------------------------  | ------ |
-| addi   | Add with immediate           | '0000' |
-| subi   | Subtract with immediate      | '0001' |
-| andi   | And bitwise with immediate   | '0002' |
-| ori    | Or bitwise with immediate    | '0003' |
-| xori   | Xor bitwise with immediate   | '0004' |
-| beq    | Conditional jump             | '0005' |
-| bleu   | Conditional jump (Unsigned)  | '0006' |
-| bles   | Unconditional jump (Signed)  | '0007' |
+| Instruction | Description                 | Opcode |
+|-------------|-----------------------------|--------|
+| addi        | Add with immediate          | '0000' |
+| subi        | Subtract with immediate     | '0001' |
+| andi        | And bitwise with immediate  | '0002' |
+| ori         | Or bitwise with immediate   | '0003' |
+| xori        | Xor bitwise with immediate  | '0004' |
+| beq         | Conditional jump            | '0005' |
+| bleu        | Conditional jump (Unsigned) | '0006' |
+| bles        | Unconditional jump (Signed) | '0007' |
 
 There's a collection of programs inside the `programs` folder. Zepto programs
 (in its own assembly language) are sufixed with the `.z` extension, you can open
